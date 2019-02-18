@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  isActive: MyString
+  boolean: MyString
+
+two:
+  isActive: MyString
+  boolean: MyString

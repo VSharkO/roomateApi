@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Deviceid:</strong>
+  <%= @device.deviceId %>
+</p>
+
+<p>
+  <strong>Integer:</strong>
+  <%= @device.integer %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @device.message %>
+</p>
+
+<p>
+  <strong>String:</strong>
+  <%= @device.string %>
+</p>
+
+<%= link_to 'Edit', edit_device_path(@device) %> |
+<%= link_to 'Back', devices_path %>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Isactive:</strong>
+  <%= @status.isActive %>
+</p>
+
+<p>
+  <strong>Boolean:</strong>
+  <%= @status.boolean %>
+</p>
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>
